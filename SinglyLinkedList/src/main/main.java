@@ -25,17 +25,21 @@ public class main {
         //list.print();
        // list.sortCapacity();
 
-        list.insertPosition(2,new Avion("Avion temp",5));
+       // list.insertPosition(2,new Avion("Avion temp",5));
         list.print();
 
-        System.out.println("\n ----- POZITIE DE STERS ----- \n");
-        list.deletePosition(2);
-        list.deletePosition(0);
-        System.out.println("\n ----- Dupa Stergere ----- \n");
-        list.print();
+//        System.out.println("\n ----- POZITIE DE STERS ----- \n");
+//        list.deletePosition(2);
+//        list.deletePosition(0);
+//        System.out.println("\n ----- Dupa Stergere ----- \n");
+       // list.print();
         //list.print();
        // Node found=list.findNodeCapacity(3);
        // System.out.println(found.avion);
+
+        list.reverseList();
+        System.out.println("\n ----- Dupa Reverse ----- \n");
+        list.print();
 
 
     }

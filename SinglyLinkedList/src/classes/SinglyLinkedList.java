@@ -160,6 +160,20 @@ public class SinglyLinkedList {
         }
 
     }
+
+
+    public void reverseList(){
+        Node current=head;
+        Node next=null;
+        Node prev=null;
+
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+        }
+    }
     public int getListLength(Node head){
         if(head==null) return 0;
         int cnt=0;
