@@ -21,14 +21,21 @@ public class main {
         list.insertBeginning(a2);
         list.insertFinal(a3);
         list.insertFinal(a4);
-//
-//        list.StergeCapactitate(1);
-//        list.StergeCapactitate(3);
-//        list.StergeCapactitate(4);
-      list.StergeCapactitate(2);
+        //  list.StergeCapactitate(1);
+        //list.print();
+       // list.sortCapacity();
 
+        list.insertPosition(2,new Avion("Avion temp",5));
         list.print();
 
+        System.out.println("\n ----- POZITIE DE STERS ----- \n");
+        list.deletePosition(2);
+        list.deletePosition(0);
+        System.out.println("\n ----- Dupa Stergere ----- \n");
+        list.print();
+        //list.print();
+       // Node found=list.findNodeCapacity(3);
+       // System.out.println(found.avion);
 
 
     }
